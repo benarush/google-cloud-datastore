@@ -1,0 +1,5 @@
+venv
+.idea/
+__pycache__/
+deploy_service_details.txt
+command_app/fast-simon-app-datastore-cred.json

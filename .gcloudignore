@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Git and other unnecessary files
+.git/
+.gitignore
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore logs and cache
+*.log
+logs/
+.cache/
+
+# Private files
+deploy_service_details.txt

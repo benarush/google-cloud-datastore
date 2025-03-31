@@ -1,0 +1,9 @@
+runtime: python311
+entrypoint: gunicorn -b :$PORT main:app
+
+env_variables:
+  TZ: "UTC"  # Set the Timezone here instead of making conversions at code level
+
+handlers:
+- url: /.*
+  script: auto
