@@ -14,8 +14,7 @@ https://cloud.google.com/datastore/docs/tools/datastore-emulator
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/benarush/google-cloud-datastore.git
 ```
 
 ### **2️⃣ Install Dependencies**
